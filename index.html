@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+        <link rel="icon" type="image/x-icon" href="asset/icontrans.png">
+        <title>Rogelio Huitron's Portfolio Site</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div id = "container">
+        <video autoplay muted loop id="loops"> <!--background credit: @nikryumshin (wave) and Aleks BM (rain)-->
+            <source id = "video" src="asset/lightloop.mp4" type="video/mp4">
+            HTML5 video unsupported.
+        </video>
+        <section class = "sec1"> <!--Section 1: image/about me-->
+            <div class = "roundthing"> 
+                <div class = leftside> 
+                    <div class ="profileimage"> <img class = "profilepic" src="asset/rhheadshot.jpg" alt = "profile picture"></div>
+                </div>
+                <div class = "rightside"> 
+                    <div id="name"><h1> Hello, I'm Rogelio Huitron.</h1></div>
+                    <p> I'm a student currently pursuing a Bachelor's degree in Computer Engineering. I'm always searching for opportunities to improve my skills and grow. Feel free to get in touch!</p>
+                </div>
+            </div>
+        </section>
+        <section class = sec25> <div class = "links"> <!--Links section-->
+            <a target="_blank" rel="noopener noreferrer" href="asset/rhuitronresume2022_10_01.pdf">  <button title="Rogelio's Resume">CV</button></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/rogelioh1">  <button id = "github_button" title="Rogelio's Github Page">  <img src="asset/25231.png"></button></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/rogelio-huitron-447818220/">  <button id = "linkedin_button" title="Rogelio's LinkedIn Page">  <img src="asset/25233.png"></button></a>
+            <a target="_blank" rel="noopener noreferrer" href="mailto: rogeliohuitron45@gmail.com">  <button id = "email_button" title="Rogelio's Email"> <img src="asset/email.png"></button></a>
+            <button id="player"  onclick="pressplayer()" title="Play/Pause Background Video">⏸️</button>
+            <button id="videochanger" title="Change Theme">🌧️</button>
+        </div> 
+
+        </section> 
+        <section class = "sec2"><!--Section 2: more info/projects-->
+            <div class = "about"> <h2>More About Me</h2> <p> Since August 2021, I've been a student at The University of Texas Rio Grande Valley in Edinburg, Texas. I'm currently studying data structures and algorithms (as of October 2022). I expect to graduate in May 2025.</p> 
+                <p> Some of my hobbies include playing video games, video editing, digital art, and programming. I look forward to expanding this site with more projects in the future!</p></div>
+            <div class = "about_right"><figure><img id="utrgv" src="asset/IMG_0969.png"><figcaption>UTRGV Edinburg Campus</figcaption></figure></div>
+
+            <div class = "projects"> <h2>Projects</h2><p> Here are the some of the things I've worked on:</p> <div id="githubproj"> 
+                <div class = "proj"><h3>IntraCity (2021) </h3> <a target="_blank" rel="noopener noreferrer" href="https://github.com/rogelioh1/intra-city"> <img class = "project_button" title="IntraCity" src="asset/intrascreenshotpng.png"></img></a> <p class="projtext"> A text-based adventure game with 5 endings. Runs in a Windows terminal.</p></div></div>
+        </section>
+       
+        <script src="js/index.js"></script>
+        </div>
+    </body>
+</html>
