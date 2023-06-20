@@ -211,6 +211,12 @@ figure {
     text-align: center;
 }
 
+.proj2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+    grid-gap: 20px;
+    max-width: 1000px;
+}
 
 #githubproj {
     display: flex;
@@ -373,5 +379,13 @@ button img {
         max-width: 300px;
         margin: 10px;
     }
+
+    .proj2 {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+        grid-gap: 20px;
+        max-width: 1000px;
+    }
+
 
   }
