@@ -354,6 +354,12 @@ button img {
         overflow: auto;
         white-space: nowrap;
     }
+    .githubproj {
+        margin: auto;
+        flex: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
 
     .about {
         margin-left: 5%;
@@ -374,14 +380,17 @@ button img {
 
     .proj {
         max-width: 350px;
+        min-height: 520px;
     }
+
     .project_button {
         max-width: 300px;
         margin: 10px;
     }
 
     .proj2 {
-        display: grid;
+        display: flex;
+        flex-direction: column;
         grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
         grid-gap: 20px;
         max-width: 1000px;
