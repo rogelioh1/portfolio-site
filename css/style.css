@@ -321,6 +321,11 @@ button img {
         position: fixed;
     }
 
+    #utrgv {
+        width: 350px;
+        height: 350px;
+    }
+
     #name {
         font-size: 100%;
     }
